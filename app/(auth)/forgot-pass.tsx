@@ -1,12 +1,10 @@
-import { Link } from "expo-router";
+import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Index() {
+export default function ForgotPass() {
   return (
     <View style={styles.container}>
-      <Text>(Nombre)</Text>
-      <Link href="/login">-Inicio de Sesion-</Link>
-      <Link href="/signup">-Registro de Usuario-</Link>
+      <Text>Olvide mi contraseña</Text>
     </View>
   );
 }
